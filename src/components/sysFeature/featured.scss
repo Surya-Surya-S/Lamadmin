@@ -1,0 +1,101 @@
+.featured{
+    flex: 2;
+    padding: 14px;
+    border-radius: 6px;
+    -webkit-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.28); 
+    box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        .title{
+            font-size: 18px;
+            font-weight: 600;
+            color: #14213d;
+        }
+        .icon{
+            font-size: 20px;
+            font-weight: 500;
+            color: #14213d;
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        gap: 20px;
+        padding: 30px;
+
+        .featuredChart{
+            width: 50%;
+            height: 50%;
+        }
+        .title{
+            font-size: 14px;
+            font-weight: 500;
+            color: #8d99ae;
+        }
+        .amount{
+            font-size: 22px;
+            font-weight: 600;
+            color: #2b2d42;
+        }
+        .content{
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #8d99ae;
+            margin-bottom: 10px;
+        }
+        .summary{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .item{
+                text-align: center;
+                
+                .itemTitle{
+                    font-size: 14px;
+                    font-weight: 600;
+                    color: #8d99ae;
+                }
+                .icon{
+                    font-size: 26px;
+                }
+
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    .itemAmount{
+                        font-size: 14px;
+                        font-weight: 600;
+                        color: #2b2d42;
+                        
+                        &.positive{
+                            color: #007500;
+                        }
+                        &.negative{
+                            color: #FF0000;
+                        }
+                    }
+                    &.positive{
+                        color: #007500;
+                    }
+                    &.negative{
+                        color: #FF0000;
+                    }
+                }
+            }    
+            
+        }
+    }
+}

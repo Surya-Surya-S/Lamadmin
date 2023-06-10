@@ -1,0 +1,64 @@
+.table {
+
+    .deliveryTable {
+
+        .tableCell {
+            font-size: 15px !important;
+            font-weight: 500;
+            background-color: #386ba5 !important;
+            color: #fff !important;
+        }
+    }
+
+    .cellWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #386ba5 !important;
+
+        .image {
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+    }
+
+    .delivery_Table{
+
+        .tableCell {
+            font-size: 14px !important;
+            font-weight: 600;
+            text-align: center;
+            background-color: #74a0d24d !important;
+            color: #386ba5 !important;
+
+            .delivery {
+                width: 40%;
+                display: flex;
+                justify-content: center;
+                font-size: 14px !important;
+                font-weight: 600;
+                text-align: center;
+                border-radius: 5px;
+                padding: 6px;
+                margin: 0 auto;
+
+                &.Delivered {
+                    color: #edf6f9 !important;
+                    background-color: rgb(42 157 144 / 65%) !important;
+                }
+
+                &.Order{
+                    color: #f4a261 !important;
+                    background-color: rgb(244 163 97 / 60%) !important;
+                }
+
+                &.Cancelled {
+                    color: #e05454 !important;
+                    background-color: rgb(230 57 71 / 37%) !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+.information {
+
+    .deliveryInform {
+
+        .tableCell {
+            font-size: 15px !important;
+            font-weight: 500;
+            background-color: #386ba5 !important;
+            color: #fff !important;
+        }
+    }
+
+    .cellWrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #386ba5 !important;
+
+        .image {
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+    }
+
+    .delivery_Table{
+
+        .tableCell {
+            font-size: 14px !important;
+            font-weight: 600;
+            text-align: center;
+            background-color: #74a0d24d !important;
+            color: #386ba5 !important;
+
+            .delivery {
+                width: 50%;
+                display: flex;
+                justify-content: center;
+                font-size: 14px !important;
+                font-weight: 600;
+                text-align: center;
+                padding: 5px;
+                border-radius: 5px;
+                margin: 0 auto;
+
+                &.month {
+                    color: #edf6f9 !important;
+                    background-color: rgb(42 157 144 / 65%) !important;
+                }
+            }
+        }
+    }
+}

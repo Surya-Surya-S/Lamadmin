@@ -1,0 +1,80 @@
+.delivery {
+    width: 100%;
+    display: flex;
+
+    .deliveryContainer {
+        flex: 6;
+        overflow: hidden;
+
+        .top {
+            border-radius: 8px;
+                -webkit-box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                color: #386ba5;
+                padding: 10px 20px;
+                margin: 20px;
+            h1 {
+                font-size: 30px;
+                font-weight: 700;
+            }
+        }
+
+        .bottom {
+            border-radius: 8px;
+                -webkit-box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                margin: 20px;
+                
+            .item {
+                width: 40%;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                border-radius: 8px;
+                -webkit-box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                padding: 20px;
+                margin: 0 auto;
+
+                .topImg {
+                    width: 100px;
+                    height: 100px;
+                    border-radius: 100%;
+                    margin-right: 20px;
+                }
+
+                .detailsTitle {
+                    font-size: 28px;
+                    font-weight: 600;
+                    color: #dda15e;
+                    margin-bottom: 16px;
+                }
+
+                .detailsContent {
+                    display: flex;
+                    align-items: center;
+
+                    .contentKey {
+                        font-size: 18px;
+                        font-weight: 500;
+                        color: #003049;
+                        margin: 0 4px 4px 0;
+                    }
+
+                    .contentValue {
+                        font-size: 13px;
+                        font-weight: 600;
+                        color: #669bbc;
+                    }
+
+                    h1{
+                        font-size: 32px;
+                        font-weight: 600;
+                        color: #6a994e;
+                        margin-top: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

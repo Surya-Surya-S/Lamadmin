@@ -1,0 +1,751 @@
+@media screen and (max-width: 767px) {
+  .home .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .home .sidebar .top .logo {
+    display: none;
+  }
+  .home .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .home .sidebar .center ul li span {
+    display: none;
+  }
+  .home .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .home .homeContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 40px;
+    overflow: hidden;
+  }
+  .home .homeContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .home .homeContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .home .homeContainer .navbar .wrapper .items .item:nth-child(2), .home .homeContainer .navbar .wrapper .items .item:nth-child(6), .home .homeContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .home .homeContainer .widgets,
+  .home .homeContainer .charts {
+    display: grid !important;
+    grid-template-columns: 46% 46%;
+    justify-content: space-between;
+    margin-bottom: 14px;
+  }
+  .home .homeContainer .charts {
+    grid-template-columns: 100% !important;
+  }
+  .home .homeContainer .charts .featured {
+    display: none;
+  }
+  .home .homeContainer .chart {
+    width: 80%;
+  }
+  .list .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .list .sidebar .top .logo {
+    display: none;
+  }
+  .list .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .list .sidebar .center ul li span {
+    display: none;
+  }
+  .list .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .list .listContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 40px;
+    overflow: hidden;
+  }
+  .list .listContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .list .listContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .list .listContainer .navbar .wrapper .items .item:nth-child(2), .list .listContainer .navbar .wrapper .items .item:nth-child(6), .list .listContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .list .listContainer .top h1 {
+    font-size: 18px !important;
+  }
+  .list .listContainer .bottom .userList .usetTable .userColumnsMobile {
+    display: none;
+  }
+  .list .listContainer .bottom .userList .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto;
+  }
+  .list .listContainer .bottom .userList form {
+    width: 48% !important;
+    gap: 10px 36px !important;
+  }
+  .list .listContainer .bottom .userList .addUser form input {
+    margin: 20px 0;
+  }
+  .list .listContainer .bottom .userList .viewButton button {
+    left: 16rem;
+  }
+  .product .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .product .sidebar .top .logo {
+    display: none;
+  }
+  .product .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .product .sidebar .center ul li span {
+    display: none;
+  }
+  .product .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .product .productContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 40px;
+    overflow: hidden;
+  }
+  .product .productContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .product .productContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .product .productContainer .navbar .wrapper .items .item:nth-child(2), .product .productContainer .navbar .wrapper .items .item:nth-child(6), .product .productContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .product .productContainer .top h1 {
+    font-size: 18px;
+  }
+  .product .productContainer .bottom .addButton {
+    margin-left: 0;
+  }
+  .product .productContainer .bottom .addForm,
+  .product .productContainer .bottom .editForm {
+    width: 100%;
+  }
+  .product .productContainer .bottom .addForm button,
+  .product .productContainer .bottom .editForm button {
+    margin-left: 7rem !important;
+  }
+  .product .productContainer .bottom .editForm,
+  .product .productContainer .bottom .viewForm {
+    width: 70%;
+    top: 34.6rem;
+    left: 30%;
+    position: absolute;
+  }
+  .product .productContainer .bottom .editForm .editButton,
+  .product .productContainer .bottom .viewForm .editButton {
+    margin-left: 0 !important;
+  }
+  .product .productContainer .bottom .editForm .editButton .saveButton,
+  .product .productContainer .bottom .editForm .editButton .cancelButton,
+  .product .productContainer .bottom .viewForm .editButton .saveButton,
+  .product .productContainer .bottom .viewForm .editButton .cancelButton {
+    width: 16% !important;
+    margin-left: 0 !important;
+  }
+  .product .productContainer .bottom .editForm .editButton button,
+  .product .productContainer .bottom .viewForm .editButton button {
+    display: block;
+  }
+  .product .productContainer .bottom .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto !important;
+  }
+  .order .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .order .sidebar .top .logo {
+    display: none;
+  }
+  .order .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .order .sidebar .center ul li span {
+    display: none;
+  }
+  .order .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .order .orderContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 40px;
+    overflow: hidden;
+  }
+  .order .orderContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .order .orderContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .order .orderContainer .navbar .wrapper .items .item:nth-child(2), .order .orderContainer .navbar .wrapper .items .item:nth-child(6), .order .orderContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .order .orderContainer .top h1 {
+    font-size: 18px !important;
+  }
+  .delivery .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .delivery .sidebar .top .logo {
+    display: none;
+  }
+  .delivery .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .delivery .sidebar .center ul li span {
+    display: none;
+  }
+  .delivery .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .delivery .deliveryContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 40px;
+    overflow: hidden;
+  }
+  .delivery .deliveryContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .delivery .deliveryContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .delivery .deliveryContainer .navbar .wrapper .items .item:nth-child(2), .delivery .deliveryContainer .navbar .wrapper .items .item:nth-child(6), .delivery .deliveryContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .delivery .deliveryContainer .top h1 {
+    font-size: 18px !important;
+  }
+  .delivery .deliveryContainer .bottom .delivery_Table .tableCell .delivery {
+    width: 70%;
+  }
+  .stats .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .stats .sidebar .top .logo {
+    display: none;
+  }
+  .stats .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .stats .sidebar .center ul li span {
+    display: none;
+  }
+  .stats .statsContainer {
+    width: 70%;
+  }
+  .stats .statsContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 110px;
+    overflow: hidden;
+  }
+  .stats .statsContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .stats .statsContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .stats .statsContainer .navbar .wrapper .items .item:nth-child(2), .stats .statsContainer .navbar .wrapper .items .item:nth-child(6), .stats .statsContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .stats .statsContainer .top h1 {
+    font-size: 18px !important;
+  }
+  .stats .statsContainer .bottom .chart .title {
+    font-size: 12px !important;
+  }
+  .stats .statsContainer .bottom .chart g.recharts-layer.recharts-cartesian-axis-tick,
+  .stats .statsContainer .bottom .chart .recharts-legend-wrapper {
+    font-size: 12px;
+  }
+  .stats .statsContainer .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .notification .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .notification .sidebar .top .logo {
+    display: none;
+  }
+  .notification .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .notification .sidebar .center ul li span {
+    display: none;
+  }
+  .notification .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .notification .notifiContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 110px;
+    overflow: hidden;
+  }
+  .notification .notifiContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .notification .notifiContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .notification .notifiContainer .navbar .wrapper .items .item:nth-child(2), .notification .notifiContainer .navbar .wrapper .items .item:nth-child(6), .notification .notifiContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .notification .notifiContainer .top {
+    width: 24% !important;
+  }
+  .notification .notifiContainer .bottom {
+    width: 82% !important;
+  }
+  .notification .notifiContainer .bottom .message li {
+    font-size: 12px;
+  }
+  .notification .notifiContainer .bottom .message p {
+    font-size: 14px;
+  }
+  .system .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .system .sidebar .top .logo {
+    display: none;
+  }
+  .system .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .system .sidebar .center ul li span {
+    display: none;
+  }
+  .system .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .system .sysContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 110px;
+    overflow: hidden;
+  }
+  .system .sysContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .system .sysContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .system .sysContainer .navbar .wrapper .items .item:nth-child(2), .system .sysContainer .navbar .wrapper .items .item:nth-child(6), .system .sysContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .system .sysContainer .chartsInner {
+    flex-direction: column;
+  }
+  .system .sysContainer .chartsInner .featured {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .system .sysContainer .chartsInner .featured .title,
+  .system .sysContainer .chartsInner .featured .icon {
+    font-size: 16px;
+  }
+  .system .sysContainer .chartsInner .featured .featuredChart {
+    width: 40%;
+    height: 40%;
+  }
+  .system .sysContainer .chartsInner .featured .bottom {
+    font-size: 12px;
+    gap: 12px;
+    padding: 14px;
+  }
+  .system .sysContainer .chartsInner .featured .bottom .itemTitle {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .system .sysContainer .chartsInner .recharts-responsive-container.Health {
+    width: 94% !important;
+  }
+  .system .sysContainer .chartsInner .recharts-responsive-container.Health .recharts-wrapper.barChart {
+    right: 20px;
+  }
+  .system .sysContainer .chartsInner tspan {
+    font-size: 12px;
+  }
+  .setting .sidebar {
+    width: 20%;
+    flex: 0;
+  }
+  .setting .sidebar .top .logo {
+    display: none;
+  }
+  .setting .sidebar .top .logo_img {
+    max-width: 34%;
+  }
+  .setting .sidebar .center ul li span {
+    display: none;
+  }
+  .setting .sidebar .bottom .themeColors .colorOptions {
+    width: 14px;
+    height: 14px;
+  }
+  .setting .settingContainer .navbar .wrapper {
+    padding: 10px;
+    gap: 110px;
+    overflow: hidden;
+  }
+  .setting .settingContainer .navbar .wrapper .search .input {
+    width: 6rem;
+  }
+  .setting .settingContainer .navbar .wrapper .items .item {
+    display: none;
+  }
+  .setting .settingContainer .navbar .wrapper .items .item:nth-child(2), .setting .settingContainer .navbar .wrapper .items .item:nth-child(6), .setting .settingContainer .navbar .wrapper .items .item:nth-child(7) {
+    display: flex;
+  }
+  .setting .settingContainer .top {
+    width: 13% !important;
+  }
+  .setting .settingContainer .top h1 {
+    font-size: 18px !important;
+  }
+  .setting .settingContainer .settings {
+    display: grid !important;
+    grid-template-columns: 50% 50% !important;
+    gap: 20px;
+  }
+  .setting .settingContainer .setting:nth-child(3) {
+    margin-left: -1.4rem;
+  }
+  .setting .settingContainer .setting:nth-child(4) {
+    margin-right: -1rem;
+  }
+  .setting .settingContainer .setting:nth-child(6) {
+    margin-right: -3rem;
+  }
+  .login_bg .login {
+    width: 40% !important;
+    padding: 20px !important;
+  }
+  .login_bg .login .paper form {
+    width: 98%;
+    display: flex;
+    gap: 6px;
+    margin: 0 auto;
+  }
+  .login_bg .login .paper form label {
+    gap: 0;
+    margin-right: 75px !important;
+  }
+  .login_bg .login .paper .avatar {
+    width: 30% !important;
+    height: 30% !important;
+  }
+  .login_bg .login .paper .textfield {
+    font-size: 12px !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .login_bg .login .paper h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .login_bg .login .paper button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 14px;
+  }
+  .login_bg .login .paper .link {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .login_bg .login .paper .link a {
+    color: #49beaa;
+  }
+  .login_bg .login .paper button {
+    background-color: #49beaa;
+  }
+  .login_bg .login .paper span {
+    font-size: 11px;
+  }
+  .login_bg .login .paper form field .error {
+    color: #49beaa !important;
+  }
+  .login_bg .bgVideo {
+    height: 100vh;
+  }
+}
+@media screen and (max-width: 991px) {
+  .list .listContainer .bottom .addUser form input {
+    margin: 10px 0;
+  }
+  .list .listContainer .bottom .userList {
+    margin-bottom: 14px;
+  }
+  .list .listContainer .bottom .userList .usetTable .userColumnsMobile {
+    display: none;
+  }
+  .list .listContainer .bottom .userList .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto;
+  }
+  .list .listContainer .bottom .userList .addUser form input {
+    margin: 20px 0;
+  }
+  .list .listContainer .bottom .userList .viewButton button {
+    left: 16rem;
+  }
+  .list .listContainer .bottom .userList form {
+    width: 48% !important;
+    gap: 10px 36px !important;
+  }
+  .list .listContainer .bottom .userList form input {
+    margin: 10px 0;
+  }
+  .product .productContainer .bottom .addButton {
+    margin-left: 0;
+  }
+  .product .productContainer .bottom .addForm,
+  .product .productContainer .bottom .editForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto;
+  }
+  .product .productContainer .bottom .addForm button,
+  .product .productContainer .bottom .editForm button {
+    width: 10%;
+    /* margin-right: 0 !important; */
+    margin: 0 !important;
+  }
+  .product .productContainer .bottom .editForm,
+  .product .productContainer .bottom .viewForm {
+    width: 70% !important;
+    top: 34.6rem;
+    left: 18%;
+    position: absolute;
+  }
+  .product .productContainer .bottom .editForm .editButton .saveButton,
+  .product .productContainer .bottom .editForm .editButton .cancelButton,
+  .product .productContainer .bottom .viewForm .editButton .saveButton,
+  .product .productContainer .bottom .viewForm .editButton .cancelButton {
+    width: 40% !important;
+    margin-left: 0 !important;
+  }
+  .product .productContainer .bottom .editForm .editButton button,
+  .product .productContainer .bottom .viewForm .editButton button {
+    display: block;
+    margin: 0;
+  }
+  .product .productContainer .bottom .viewForm {
+    left: 30%;
+  }
+  .product .productContainer .bottom .viewForm .viewButton {
+    width: 12%;
+  }
+  .product .productContainer .bottom .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto !important;
+  }
+  .delivery .deliveryContainer .bottom .delivery_Table .tableCell .delivery {
+    width: 70%;
+  }
+  .system .sysContainer .chartsInner {
+    flex-direction: column;
+  }
+  .system .sysContainer .chartsInner .featured {
+    width: 48%;
+    margin: 0 auto;
+  }
+  .system .sysContainer .chartsInner .featured .title,
+  .system .sysContainer .chartsInner .featured .icon {
+    font-size: 16px;
+  }
+  .system .sysContainer .chartsInner .featured .featuredChart {
+    width: 40%;
+    height: 40%;
+  }
+  .system .sysContainer .chartsInner .featured .bottom {
+    font-size: 12px;
+    gap: 12px;
+    padding: 14px;
+  }
+  .system .sysContainer .chartsInner .featured .bottom .itemTitle {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .system .sysContainer .chartsInner .recharts-responsive-container.Health {
+    width: 94% !important;
+  }
+  .system .sysContainer .chartsInner .recharts-responsive-container.Health .recharts-wrapper.barChart {
+    right: 20px;
+  }
+  .system .sysContainer .chartsInner tspan {
+    font-size: 12px;
+  }
+  .setting .settingContainer .bottom .settings {
+    justify-content: center !important;
+    margin: 46px;
+    gap: 26px 15px;
+    flex-wrap: wrap;
+  }
+  .login_bg .login {
+    width: 46% !important;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .list .listContainer .bottom .addUser input {
+    margin: 10px 0;
+  }
+  .list .listContainer .bottom .userList {
+    margin-bottom: 14px;
+    background-color: transparent;
+  }
+  .list .listContainer .bottom .userList .usetTable .userColumnsMobile {
+    display: none;
+  }
+  .list .listContainer .bottom .userList .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto;
+  }
+  .list .listContainer .bottom .userList .addUser form input {
+    margin: 20px 0;
+  }
+  .list .listContainer .bottom .userList form {
+    width: 45%;
+    gap: 15px 94px;
+  }
+  .list .listContainer .bottom .userList form input {
+    margin: 10px 0;
+  }
+  .product .productContainer .bottom .addButton {
+    margin-left: 0;
+  }
+  .product .productContainer .bottom .addForm,
+  .product .productContainer .bottom .editForm {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 14px auto;
+  }
+  .product .productContainer .bottom .addForm button,
+  .product .productContainer .bottom .editForm button {
+    width: 10%;
+    /* margin-right: 0 !important; */
+    margin: 10px !important;
+  }
+  .product .productContainer .bottom .formInput label {
+    margin-left: -53px;
+  }
+  .product .productContainer .bottom .editForm,
+  .product .productContainer .bottom .viewForm {
+    width: 46%;
+  }
+  .product .productContainer .bottom .editForm .editButton .saveButton,
+  .product .productContainer .bottom .editForm .editButton .cancelButton,
+  .product .productContainer .bottom .viewForm .editButton .saveButton,
+  .product .productContainer .bottom .viewForm .editButton .cancelButton {
+    width: 40% !important;
+    margin-left: 0 !important;
+  }
+  .product .productContainer .bottom .editForm .editButton button,
+  .product .productContainer .bottom .viewForm .editButton button {
+    display: block;
+    margin: 0;
+  }
+  .product .productContainer .bottom .viewForm {
+    left: 30%;
+    top: 36rem;
+  }
+  .product .productContainer .bottom .viewForm .viewButton {
+    width: 14%;
+  }
+  .product .productContainer .bottom .css-axafay-MuiDataGrid-virtualScroller {
+    overflow: auto !important;
+  }
+  .notification .notifiContainer .top {
+    width: 14% !important;
+  }
+  .system .sysContainer .featured .bottom .item .itemTitle {
+    font-size: 14px !important;
+    font-weight: 600 !important;
+  }
+  .system .sysContainer .featured .bottom .item .icon {
+    font-size: 20px;
+  }
+  .setting .settingContainer .bottom .settings {
+    justify-content: flex-start !important;
+    flex-wrap: wrap !important;
+    gap: 20px 50px !important;
+  }
+  .login_bg .login {
+    width: 34% !important;
+  }
+  .login_bg .login .paper form {
+    width: 98%;
+    display: flex;
+    gap: 6px;
+    margin: 0 auto;
+  }
+  .login_bg .login .paper form label {
+    gap: 0;
+    margin-right: 75px !important;
+  }
+  .login_bg .login .paper .avatar {
+    width: 30% !important;
+    height: 30% !important;
+  }
+  .login_bg .login .paper .textfield {
+    font-size: 12px !important;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  .login_bg .login .paper h3 {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .login_bg .login .paper button {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    margin: 20px 0 14px;
+  }
+  .login_bg .login .paper .link {
+    font-size: 12px;
+    color: #fff;
+    margin-top: 10px;
+  }
+  .login_bg .login .paper .link a {
+    color: #49beaa;
+  }
+  .login_bg .login .paper button {
+    background-color: #49beaa;
+  }
+  .login_bg .login .paper span {
+    font-size: 11px;
+  }
+  .login_bg .bgVideo {
+    height: 100vh;
+  }
+}
+
+/*# sourceMappingURL=Media.css.map */

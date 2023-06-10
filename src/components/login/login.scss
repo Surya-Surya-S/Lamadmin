@@ -1,0 +1,107 @@
+.login_bg{
+
+    .login{
+        width: 30%;
+        padding: 40px;
+        margin: 28px auto 20px;
+        
+        .paper{
+            padding: 30px;
+            border-radius: 6px;
+            background-color: transparent;
+
+            form{
+                width: 98%;
+                display: flex;
+                justify-content: flex-start;
+                gap: 6px;
+                margin: 0 auto;
+                
+                label {
+                    gap: 0;
+                    margin-right: 7rem;
+                }
+            }
+            
+            .avatar{
+                width: 20%;
+                height: 20%;
+                margin-bottom: 20px;
+            }
+            .textfield{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 10px;
+
+                input[name="username"] {
+                    opacity: 1;
+                     // Change the text color of the username field
+                    border: none;  // Change the border color of the username field
+                    
+                    &:focus {
+                        outline: none;  // Remove the default focus outline
+                        border-bottom-color: #49beaa;  // Change the border color when the field is focused
+                    }
+                }
+
+                .MuiFormLabel-root.MuiInputLabel-root {
+                    color: #49beaa;  // Change the label color
+                  }
+
+                  .MuiInputBase-root {
+                    color: #fff;  // Change the input text color
+                  }
+
+                  .MuiInput-underline:before {
+                    border-bottom-color: #49beaa;  // Change the underline color
+                  }
+
+                  .MuiInput-underline:hover:before {
+                    border-bottom-color: #49beaa;  // Change the underline color on hover
+                  }
+
+                  .MuiInput-underline:after {
+                    border-bottom-color: #fff;  // Change the underline color when focused
+                  }
+
+                  .MuiInput-underline.Mui-error:after {
+                    border-bottom-color: red;  // Change the underline color when in error state
+                  }
+                  
+            
+            }
+            
+            h3{
+                font-size: 18px;
+                font-weight: 600;
+            }
+            button{
+                font-size: 18px;
+                font-weight: 500;
+                color: #fff;
+                margin: 20px 0 14px;
+            }
+            .link{
+                color: #fff;
+                margin-top: 10px;
+                
+                a{
+                    color: #49beaa;
+                }
+            }
+            button{
+                background-color: #49beaa;
+            }
+            span{
+                color: #fff;
+            }
+        }
+        form{
+            field{
+                .error-text{
+                    color: #49beaa !important;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,459 @@
+.dark {
+    width: 100%;
+    background-color: rgb(22, 28, 36);
+    color: #3e97c7cd;
+
+    // Sidebar_Start
+    .sidebar {
+        background-color: rgb(22, 28, 36);
+        border-right: 0.5px solid #e0e1dd1b;
+
+        .top {
+            background-color: #212b36;
+            border-bottom: 0.5px solid #e0e1dd1b;
+
+            .logo {
+                color: #ffffffc5;
+            }
+        }
+        .center {
+            ul {
+                .title {
+                    color: rgb(145, 158, 171);
+                }
+
+                li {
+                    &:hover {
+                        background-color: rgba(0, 171, 86, 0.2);
+                    }
+
+                    &.active {
+                        background-color: rgba(0, 171, 86, 0.2);
+                    }
+                }
+            }
+        }
+        .bottom {
+            .title {
+                color: rgb(145, 158, 171);
+            }
+        }
+    }
+    // Sidebar_End
+
+    // Navbar_Start
+    .navbar {
+        .wrapper {
+            .search {
+                border: none;
+
+                input {
+                    padding: 5px;
+                }
+                .icon {
+                    background-color: #fff;
+                    border-bottom: 1px solid #fff;
+                    padding: 4px;
+                }
+            }
+            .item {
+                color: #edf6f9dc;
+            }
+        }
+    }
+    // Navbar_Start
+
+    // HomePage_Start
+    .widget {
+        background: rgb(33, 43, 54);
+        box-shadow: 0 0px 10px rgb(125 133 142);
+        -webkit-box-shadow: 0 0px 10px rgb(125 133 142);
+
+        .title {
+            color: #fff;
+        }
+        .counter {
+            color: #9effc9;
+        }
+        .link {
+            color: #ffffffab;
+
+            &::after {
+                background-color: #ffffff72;
+            }
+        }
+        .percentage {
+            &.positive {
+                color: #4ecc86;
+            }
+            &.negative {
+                color: #ff0000;
+            }
+        }
+    }
+    .featured {
+        background: rgb(33, 43, 54);
+        box-shadow: 0 0px 10px rgb(121 121 121);
+        -webkit-box-shadow: 0 0px 10px rgb(121 121 121);
+
+        .top {
+            .title {
+                color: #fff;
+            }
+            .icon {
+                font-size: 20px;
+                font-weight: 500;
+                color: #eeedea;
+            }
+        }
+        .bottom {
+            .title {
+                color: #ffffffc6;
+            }
+            .summary {
+                .item {
+                    .itemTitle {
+                        color: #ffffffc6;
+                    }
+                }
+            }
+        }
+    }
+    .chart {
+        background: rgb(33, 43, 54);
+        box-shadow: 0 0px 10px rgb(121 121 121);
+        -webkit-box-shadow: 0 0px 10px rgb(121 121 121);
+
+        .chartLine {
+            stroke: rgba(242, 242, 242, 0.1);
+        }
+        .title {
+            color: #ffffffab;
+        }
+        .chartContainer {
+            .area {
+                stroke: #eeedea;
+            }
+        }
+    }
+    // HomePage_End
+
+    // UsersPage_Start
+    .listContainer {
+        .top {
+            background-color: rgb(33, 43, 54);
+            box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+        }
+        .bottom {
+            .userList {
+                button {
+                    margin-bottom: 6px;
+                    background-color: #9c6644;
+                }
+                .addUserButton {
+                    button {
+                        background-color: #e27532;
+                    }
+                }
+                .css-yrdy0g-MuiDataGrid-columnHeaderRow {
+                    font-size: 17px;
+                    font-weight: 600;
+                    background-color: #9c6644;
+                }
+                .css-t89xny-MuiDataGrid-columnHeaderTitle {
+                    color: #ddb892;
+                }
+                .css-12u49z-MuiDataGrid-root .MuiDataGrid-cellContent {
+                    color: #9a8c98;
+                }
+                .cellAction {
+                    .icon {
+                        color: #9a8c98;
+                    }
+                }
+                .addUser {
+                    form {
+                        width: 54%;
+                        display: flex;
+
+                        div {
+                            input {
+                                display: flex;
+                                padding-left: 6px;
+
+                                &:nth-child(1) {
+                                    justify-content: flex_start;
+                                }
+                            }
+                            button {
+                                background-color: #00ab55;
+                            }
+                        }
+                    }
+                }
+                .viewButton {
+                    h2,
+                    p {
+                        color: #ddb892;
+                    }
+
+                    p {
+                        color: rgb(145, 158, 171);
+                    }
+                    .userInfo {
+                        color: rgba(0, 0, 255, 0.934);
+
+                        #userInfo {
+                            color: #e27532;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+    // UserPage_End
+
+    // Product_Start
+    .productContainer {
+        .top {
+            background-color: rgb(33, 43, 54);
+        }
+        .bottom {
+            box-shadow: none;
+            -webkit-box-shadow: none;
+
+            .addButton {
+                background-color: #b6ccfe;
+                color: #62b6cb;
+            }
+            .css-12u49z-MuiDataGrid-root {
+                border-color: rgb(33, 43, 54);
+
+                .css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone,
+                .css-wop1k0-MuiDataGrid-footerContainer {
+                    background-color: #f6fff8;
+                }
+                .css-12u49z-MuiDataGrid-root .MuiDataGrid-withBorderColor {
+                    border-color: #fff;
+                }
+            }
+            .viewForm {
+                left: 30%;
+
+                h2,
+                p {
+                    color: #00d3e0;
+                }
+            }
+        }
+    }
+    // Product_End
+
+    // Order_Start
+    .order {
+        .orderContainer {
+            .top {
+                background-color: rgb(33, 43, 54);
+
+                h1 {
+                    color: #b8f500c9;
+                }
+            }
+
+            .bottom {
+                .orderTable {
+                    .tableRow {
+                        .tableCell {
+                            background-color: #e88d5c !important;
+                        }
+                    }
+                    .tableBody {
+                        .tableCell {
+                            background-color: #fff0f3 !important;
+                            border: none;
+                            color: #f8ad9d !important;
+                        }
+                    }
+                    .cellWrapper {
+                        color: #f8ad9d !important;
+                    }
+                }
+            }
+        }
+    }
+    // Order_End
+
+    // Delivery_Start
+    .dark{
+        .deliveryContainer {
+            .top {
+                background-color: #212b36;
+    box-shadow: 1px 2px 8px -2px rgba(0,0,0,.28);
+                h1 {
+                    color: #a4b8c4 !important;
+                }
+            }
+            .bottom {
+                .table {
+                    .deliveryTable {
+                        .tableCell {
+                            background-color: #6e8387 !important;
+                            color: #a4b8c4 !important;
+                        }
+                    }
+                    .delivery_Table {
+                        .tableCell {
+                            background-color: #fcfafa !important;
+                            color: #acb2b3 !important;
+                        }
+                        .cellWrapper {
+                            color: #acb2b3 !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Delivery_End
+
+    // Stats_Start
+    .stats {
+        .statsContainer {
+            .top {
+                background-color: rgb(33, 43, 54);
+            }
+            .bottom {
+                .chart {
+                    .title {
+                        color: rgb(255 255 255 / 47%);
+                    }
+                }
+            }
+        }
+    }
+    // Stats_End
+
+    // Notification_Start
+    .notification {
+        .notifiContainer {
+            .top {
+                background-color: rgb(33, 43, 54);
+                color: #83c5be;
+            }
+            .bottom {
+                background-color: rgb(33, 43, 54);
+
+                .message {
+                    .right,
+                    p {
+                        color: #006d77;
+                    }
+                    .content {
+                        ul {
+                            li {
+                                color: #edf6f9;
+
+                                &::marker {
+                                    color: #006d77;
+                                }
+                            }
+                            p {
+                                border-bottom: 1px solid #006d77;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    // Notification_End
+
+    // SysHealth_Start
+    .sysContainer {
+        .featured {
+            box-shadow: none;
+            background-color: #d8f3dc;
+
+            .top {
+                .title,
+                .icon {
+                    color: #74c69d;
+                }
+            }
+            .bottom {
+                .CircularProgressbar-path {
+                    stroke: #74c69d;
+                }
+                .CircularProgressbar {
+                    stroke: #4ecc86;
+                }
+                .title {
+                    color: #40916c;
+                }
+                .amount {
+                    color: #2d6a4f;
+                }
+                .content {
+                    color: #b0d3bc;
+                }
+                .itemTitle {
+                    font-weight: 600 !important;
+                    color: #1b4332 !important;
+                }
+            }
+        }
+        .Health {
+            background-color: #d4f6d9;
+
+            .recharts-cartesian-axis-line {
+                stroke: #005f73; // Set the line color of X-axis and Y-axis
+            }
+            .xAxis {
+                & .recharts-text {
+                    fill: #005f73; /* Set the font color of X-axis labels */
+                }
+            }
+            .yAxis {
+                & .recharts-text {
+                    fill: #0a9396; /* Set the font color of Y-axis labels */
+                }
+            }
+        }
+    }
+    // SysHealth_End
+
+    // Setting_Start
+    .setting {
+        .settingContainer {
+            .top {
+                background-color: #dbe7e4;
+
+                h1 {
+                    color: #004b23;
+                }
+            }
+            .settingContent {
+                background-color: #fbf6ef;
+
+                .icon {
+                    color: #907856;
+                }
+            }
+        }
+    }
+    // Setting_End
+
+    // Login_Start
+    .login, 
+        .logout{
+            .login_bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+            }
+        }
+    // Logout_End
+}

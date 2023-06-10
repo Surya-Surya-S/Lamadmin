@@ -1,0 +1,91 @@
+.widget{
+    height: 100px;
+    display: flex;
+    flex: 1;
+    padding: 14px;
+    justify-content: space-between;
+    border-radius: 6px;
+    overflow: hidden;
+    background-color: #ddfaeb;
+    -webkit-box-shadow: 1px 2px 8px -2px rgba(0,0,0,0.28); 
+    box-shadow: 1px 2px 8px -2px rgba(0,0,0,0.28);
+
+    .left, .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .title{
+        font-size: 16px;
+        font-weight: 600;
+        color: #005249;
+    }
+    .counter{
+        font-size: 22px;
+        font-weight: 500;
+        color: #4ecc86;
+        opacity: 0.4;
+    }
+    .link{
+        width: max-content;
+        font-size: 13px;
+        font-weight: 500;
+        color: #75957b;
+        position: relative;
+        cursor: pointer;
+    
+        &::after{
+            content: "";
+            width: 0;
+            height: 2px;
+            background-color: #75957b17;
+            position: absolute;
+            left: 0;
+            bottom: -4px;
+            transition: 0.6s;
+        }
+        &:hover::after{
+            width: 100%;
+        }
+        
+    }
+    
+
+    .percentage{
+        font-size: 14px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        
+        &.positive{
+            color: #007500;
+        }
+        &.negative{
+            color: #ff0000;
+        }
+    }
+    .icon{
+        font-size: 20px;
+        padding: 5px;
+        align-self: flex-end;
+        border-radius: 4px;
+
+        &.user{
+            background-color: #4ecc86;
+            color: #fff;
+        }
+        &.order{
+            background-color: #e76f51;
+            color: #fff;
+        }
+        &.earning{
+            background-color: #0d1b2a;
+            color: #00b4d8;
+        }
+        &.balance{
+            background-color: #1d3557;
+            color: #fff;
+        }
+    }
+
+}

@@ -1,0 +1,140 @@
+.sidebar {
+    flex: 1;
+    border-right: 0.5px solid rgb(224 225 221 / 9%);
+    min-height: 100vh;
+    background-color: #fff;
+
+    .top {
+        height: 54px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-bottom: 0.5px solid rgb(224 225 221 / 9%);
+        margin-bottom: 10px;
+
+        .logo {
+            font-size: 20px;
+            font-weight: 700;
+            color: #212b36;
+            cursor: pointer;
+        }
+
+        .logo_img {
+            max-width: 20%;
+        }
+    }
+
+    .center {
+        padding-left: 10px;
+
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+
+            .title {
+                font-size: 14px;
+                font-weight: 700;
+                color: #637381;
+                margin: 14px 0 14px;
+            }
+
+            li {
+                display: flex;
+                align-items: center;
+                cursor: pointer;
+                padding: 8px;
+
+                &:hover {
+                    background-color: rgba(0, 171, 85, 0.08);
+                }
+
+                &.active {
+                    background-color: rgba(0, 171, 85, 0.08);
+                }
+
+
+                .icon,
+                span {
+                    font-size: 1.4rem;
+                    font-weight: 600;
+                    color: #637381;
+                }
+
+                span {
+                    font-size: 1rem !important;
+                    margin-left: 7px;
+                }
+            }
+
+            .sidebarLink {
+                text-decoration: none;
+
+                .title {
+                    font-size: 14px;
+                    font-weight: 700;
+                    color: #14213d;
+                    margin: 14px 0 6px;
+                }
+
+                &:hover {
+                    color: rgb(0, 171, 85) !important;
+
+                    .icon {
+                        color: rgb(0, 171, 85);
+                    }
+
+                    span {
+                        color: rgb(0, 171, 85);
+                    }
+                }
+
+                &.active {
+
+                    .icon {
+                        color: rgb(0, 171, 85);
+                    }
+
+                    span {
+                        color: rgb(0, 171, 85);
+                    }
+                }
+            }
+
+        }
+    }
+
+    .bottom {
+        margin: 10px;
+
+        .title {
+            font-size: 14px;
+            font-weight: 700;
+            color: #637381;
+            margin: 14px 0 14px;
+        }
+
+        .themeColors {
+            display: flex;
+            align-items: center;
+
+            .colorOptions {
+                width: 20px;
+                height: 20px;
+                border: 1px solid #dee2e6;
+                border-radius: 4px;
+                cursor: pointer;
+                margin: 5px;
+
+                &:nth-child(1) {
+                    background-color: whitesmoke;
+                }
+
+                &:nth-child(2) {
+                    background-color: rgb(33, 43, 54);
+                    border: 1px solid #ffffff57;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,38 @@
+.addForm{
+    width: 26%;
+    display: block;
+    margin: 0 auto;
+    gap: 0;
+    overflow: hidden;
+
+    h2{
+        font-size: 24px;
+    font-weight: 700;
+    color: #3a5a40;
+    margin-bottom: 14px;
+    }
+
+    .formInput{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+        label{
+            font-size: 20px;
+            font-weight: 600;
+            color: #588157;
+        }
+        input{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            margin: 16px 0;
+        }
+    }
+    .addButton{
+        width: 20%;
+        background-color: #a3b18a !important;
+        color: #fff !important;
+        margin: 2rem 0 2rem 9rem !important;
+    }
+}

@@ -1,0 +1,1392 @@
+// Variables
+$small-screen: 767px;
+$medium-screen: 991px;
+$large-screen: 1200px;
+
+// Styles for small screens (e.g., smartphones)
+@media screen and (max-width: $small-screen) {
+
+    // Home_Page
+    .home {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .homeContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 40px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .widgets,
+            .charts {
+                display: grid !important;
+                grid-template-columns: 46% 46%;
+                justify-content: space-between;
+                margin-bottom: 14px;
+            }
+
+            .charts {
+                grid-template-columns: 100% !important;
+
+                .featured {
+                    display: none;
+                }
+            }
+
+            .chart {
+                width: 80%;
+            }
+        }
+
+    }
+
+    // Home_Page
+
+    // Useres_Page
+    .list {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .listContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 40px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+
+            .bottom {
+                .userList {
+                    .usetTable {
+                        .userColumnsMobile {
+                            display: none;
+                        }
+                    }
+
+                    .css-axafay-MuiDataGrid-virtualScroller {
+                        overflow: auto;
+                    }
+
+                    .addUser {
+                        form {
+                            width: 58% !important;
+                            gap: 14px;
+
+                            input {
+                                margin: 20px 0;
+                            }
+                        }
+                    }
+
+                    form {
+                        width: 48% !important;
+                        gap: 10px 36px !important;
+                    }
+
+                    .viewButton {
+                        button {
+                            left: 16rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Useres_Page
+
+    // Producs_Page
+    .product {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .productContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 40px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                h1 {
+                    font-size: 18px;
+                }
+            }
+
+            .bottom {
+                .addButton {
+                    margin-left: 0;
+                }
+
+                .addForm,
+                .editForm {
+                    width: 100%;
+
+                    button {
+                        margin-left: 7rem !important;
+                    }
+                }
+
+                .editForm,
+                .viewForm {
+                    width: 70%;
+                    top: 36rem;
+                    left: 30%;
+                    position: absolute;
+
+                    .editButton {
+                        margin-left: 0 !important;
+
+                        .saveButton,
+                        .cancelButton {
+                            width: 16% !important;
+                            margin-left: 0 !important;
+                        }
+
+                        button {
+                            display: block;
+                        }
+                    }
+                }
+
+                .css-axafay-MuiDataGrid-virtualScroller {
+                    overflow: auto !important;
+                }
+            }
+        }
+    }
+
+    // Producs_Page
+
+    // Orders_Page
+    .order {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .orderContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 40px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+        }
+    }
+
+    // Orders_Page
+
+    // Delivery_page
+    .delivery {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .deliveryContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 40px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+
+            .bottom {
+                .delivery_Table {
+                    .tableCell {
+                        .delivery {
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Delivery_Page
+
+    // Stats_Page
+    .stats {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+        }
+
+        .statsContainer {
+            width: 70%;
+
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 110px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+
+            .bottom {
+                .chart {
+                    .title {
+                        font-size: 12px !important;
+                    }
+
+                    // .recharts-responsive-container {
+                    //     // Define the styles for the chart on mobile screens
+                    //     margin-left: -3rem; // Adjust the height as needed
+                    // }
+                    g.recharts-layer.recharts-cartesian-axis-tick,
+                    .recharts-legend-wrapper {
+                        font-size: 12px;
+                    }
+                }
+
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Stats_Page
+
+    // Notification_Page
+    .notification {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .notifiContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 110px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                width: 24% !important;
+            }
+
+            .bottom {
+                width: 82% !important;
+
+                .message {
+                    li {
+                        font-size: 12px;
+                    }
+
+                    p {
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+
+    // Notification_Page
+
+    // System_Page
+    .system {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .sysContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 110px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .chartsInner {
+                flex-direction: column;
+
+                .featured {
+                    width: 70%;
+                    margin: 0 auto;
+
+                    .title,
+                    .icon {
+                        font-size: 16px;
+                    }
+
+                    .featuredChart {
+                        width: 40%;
+                        height: 40%;
+                    }
+
+                    .bottom {
+                        font-size: 12px;
+                        gap: 12px;
+                        padding: 14px;
+
+                        .itemTitle {
+                            font-size: 14px !important;
+                            font-weight: 600 !important;
+                        }
+                    }
+                }
+
+                .recharts-responsive-container.Health {
+                    width: 94% !important;
+
+                    .recharts-wrapper.barChart {
+                        right: 20px;
+                    }
+                }
+
+                tspan {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+    // System_Page
+
+    // Setting_Page
+    .setting {
+        .sidebar {
+            width: 20%;
+            flex: 0;
+
+            .top {
+                .logo {
+                    display: none;
+                }
+
+                .logo_img {
+                    max-width: 34%;
+                }
+            }
+
+            .center {
+                ul {
+                    li {
+                        span {
+                            display: none;
+                        }
+                    }
+                }
+            }
+
+            .bottom {
+                .themeColors {
+                    .colorOptions {
+                        width: 14px;
+                        height: 14px;
+                    }
+                }
+            }
+        }
+
+        .settingContainer {
+            .navbar {
+                .wrapper {
+                    padding: 10px;
+                    gap: 110px;
+                    overflow: hidden;
+
+                    .search {
+                        .input {
+                            width: 6rem;
+                        }
+                    }
+
+                    .items {
+                        .item {
+                            display: none;
+
+                            &:nth-child(2),
+                            &:nth-child(6),
+                            &:nth-child(7) {
+                                display: flex;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .top {
+                width: 13% !important;
+
+                h1 {
+                    font-size: 18px !important;
+                }
+            }
+
+            .settings {
+                display: grid !important;
+                grid-template-columns: 50% 50% !important;
+                gap: 20px;
+            }
+
+            .setting {
+                &:nth-child(3) {
+                    margin-left: -1.4rem;
+                }
+
+                &:nth-child(4) {
+                    margin-right: -1rem;
+                }
+
+                &:nth-child(6) {
+                    margin-right: -3rem;
+                }
+            }
+        }
+    }
+
+    // Setting_Page
+
+    // Login_Page
+    .login_bg {
+
+        .login {
+            width: 40% !important;
+            padding: 20px !important;
+
+            .paper {
+                form {
+                    width: 98%;
+                    display: flex;
+                    gap: 6px;
+                    margin: 0 auto;
+
+                    label {
+                        gap: 0;
+                        margin-right: 75px !important;
+                    }
+                }
+
+                .avatar {
+                    width: 30% !important;
+                    height: 30% !important;
+                }
+
+                .textfield {
+                    font-size: 12px !important;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                button {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                    margin: 20px 0 14px;
+                }
+
+                .link {
+                    font-size: 12px;
+                    color: #fff;
+                    margin-top: 10px;
+
+                    a {
+                        color: #49beaa;
+                    }
+                }
+
+                button {
+                    background-color: #49beaa;
+                }
+
+                span {
+                    font-size: 11px;
+                }
+
+                form {
+                    field {
+                        .error {
+                            color: #49beaa !important; // Change the color to your desired color
+                        }
+                    }
+                }
+            }
+        }
+
+        .bgVideo {
+            height: 100vh;
+        }
+    }
+
+    // Login_Page
+}
+
+// Styles for medium screens (e.g., tablets)
+@media screen and (max-width: $medium-screen) {
+
+    // User_Page
+    .list {
+        .listContainer {
+            .bottom {
+                .addUser {
+                    form {
+                        width: 48% !important;
+                        gap: 0 160px !important;
+                    }
+
+                    input {
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .bottom {
+                .userList {
+                    margin-bottom: 14px;
+                    background-color: transparent;
+                    .usetTable {
+                        .userColumnsMobile {
+                            display: none;
+                        }
+                    }
+
+                    .css-axafay-MuiDataGrid-virtualScroller {
+                        overflow: auto;
+                    }
+
+                    .addUser {
+                        form {
+                            width: 66% !important;
+                            gap: 0 160px !important;
+
+                            input {
+                                margin: 20px 0;
+                            }
+                        }
+                    }
+
+                    .viewButton {
+                        button {
+                            left: 16rem;
+                        }
+                    }
+
+                    form {
+                        width: 48%;
+                        gap: 10px 36px;
+
+                        input {
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // User_Page
+
+    // Product_Page
+    .product {
+        .productContainer {
+            .bottom {
+                .addButton {
+                    margin-left: 0;
+                }
+
+                .addForm,
+                .editForm {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 14px auto;
+
+                    button {
+                        width: 10%;
+                        /* margin-right: 0 !important; */
+                        margin: 0 !important;
+                    }
+                }
+
+                .editForm,
+                .viewForm {
+                    width: 70%;
+                    top: 37rem;
+                    left: 18%;
+                    position: absolute;
+
+                    .editButton {
+
+                        .saveButton,
+                        .cancelButton {
+                            width: 40% !important;
+                            margin-left: 0 !important;
+                        }
+
+                        button {
+                            display: block;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .viewForm {
+                    left: 30%;
+
+                    .viewButton {
+                        width: 12%;
+                    }
+                }
+
+                .css-axafay-MuiDataGrid-virtualScroller {
+                    overflow: auto !important;
+                }
+            }
+        }
+    }
+
+    // Product_Page
+
+    // Delivery_Page
+    .delivery {
+        .deliveryContainer {
+            .bottom {
+                .delivery_Table {
+                    .tableCell {
+                        .delivery {
+                            width: 70%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // Delivery_Page
+
+    // System_Page
+    .system {
+
+        .sysContainer {
+            .chartsInner {
+                flex-direction: column;
+
+                .featured {
+                    width: 48%;
+                    margin: 0 auto;
+
+                    .title,
+                    .icon {
+                        font-size: 16px;
+                    }
+
+                    .featuredChart {
+                        width: 40%;
+                        height: 40%;
+                    }
+
+                    .bottom {
+                        font-size: 12px;
+                        gap: 12px;
+                        padding: 14px;
+
+                        .itemTitle {
+                            font-size: 14px !important;
+                            font-weight: 600 !important;
+                        }
+                    }
+                }
+
+                .recharts-responsive-container.Health {
+                    width: 94% !important;
+
+                    .recharts-wrapper.barChart {
+                        right: 20px;
+                    }
+                }
+
+                tspan {
+                    font-size: 12px;
+                }
+            }
+        }
+
+    }
+
+    // System_Page
+
+    // Setting_Page
+    .setting {
+        .settingContainer {
+            .bottom {
+                .settings {
+                    justify-content: center !important;
+                    margin: 46px;
+                    gap: 26px 15px;
+                    flex-wrap: wrap;
+                }
+            }
+        }
+    }
+
+    // Setting_Page
+
+    // Login_Page
+    .login_bg {
+        .login {
+            width: 46% !important;
+        }
+    }
+
+    // Login_Page
+}
+
+// Styles for large screens (e.g., desktops)
+@media screen and (max-width: $large-screen) {
+
+    // User_Page
+    .list {
+        .listContainer {
+            .bottom {
+                .addUser {
+                    input {
+                        margin: 10px 0;
+                    }
+                }
+            }
+
+            .bottom {
+                .userList {
+                    margin-bottom: 14px;
+
+                    .usetTable {
+                        .userColumnsMobile {
+                            display: none;
+                        }
+                    }
+
+                    .css-axafay-MuiDataGrid-virtualScroller {
+                        overflow: auto;
+                    }
+
+                    .addUser {
+                        form {
+                            input {
+                                margin: 20px 0;
+                            }
+                        }
+                    }
+
+                    form {
+                        width: 45%;
+                        gap: 15px 94px;
+
+                        input {
+                            margin: 10px 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // User_Page
+
+    // Product_Page
+    .product {
+        .productContainer {
+            width: 80%;
+            .bottom {
+                .addButton {
+                    margin-left: 0;
+                }
+
+                .addForm,
+                .editForm {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 14px auto;
+
+                    button {
+                        width: 10%;
+                        /* margin-right: 0 !important; */
+                        margin: 10px !important;
+                    }
+                }
+
+                .formInput {
+                    label {
+                        margin-left: -53px;
+                    }
+                }
+
+                .editForm,
+                .viewForm {
+                    width: 46%;
+
+                    .editButton {
+
+                        .saveButton,
+                        .cancelButton {
+                            width: 40% !important;
+                            margin-left: 0 !important;
+                        }
+
+                        button {
+                            display: block;
+                            margin: 0;
+                        }
+                    }
+                }
+
+                .viewForm {
+                    left: 30%;
+
+                    .viewButton {
+                        width: 12%;
+                    }
+                }
+
+                .css-axafay-MuiDataGrid-virtualScroller {
+                    overflow: auto !important;
+                }
+            }
+        }
+    }
+
+    // Product_Page
+
+    // Notification_Page
+    .notification {
+        .notifiContainer {
+            .top {
+                width: 14% !important;
+            }
+        }
+    }
+
+    // Notification_Page
+
+    // System_Page
+    .system {
+        .sysContainer {
+            .featured {
+                .bottom {
+                    .item {
+                        .itemTitle {
+                            font-size: 14px !important;
+                            font-weight: 600 !important;
+                        }
+
+                        .icon {
+                            font-size: 20px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    // System_Page
+
+    // Setting_Page
+    .setting {
+        .settingContainer {
+            .bottom {
+                .settings {
+                    justify-content: flex-start !important;
+                    flex-wrap: wrap !important;
+                    gap: 20px 50px !important;
+                }
+            }
+        }
+    }
+
+    // Setting_Page
+
+    // Login_Page
+    .login_bg {
+
+        .login {
+            width: 34% !important;
+
+            .paper {
+                form {
+                    width: 98%;
+                    display: flex;
+                    gap: 6px;
+                    margin: 0 auto;
+
+                    label {
+                        gap: 0;
+                        margin-right: 75px !important;
+                    }
+                }
+
+                .avatar {
+                    width: 30% !important;
+                    height: 30% !important;
+                }
+
+                .textfield {
+                    font-size: 12px !important;
+                    font-weight: 600;
+                    margin-bottom: 10px;
+                }
+
+                h3 {
+                    font-size: 18px;
+                    font-weight: 600;
+                }
+
+                button {
+                    font-size: 18px;
+                    font-weight: 500;
+                    color: #fff;
+                    margin: 20px 0 14px;
+                }
+
+                .link {
+                    font-size: 12px;
+                    color: #fff;
+                    margin-top: 10px;
+
+                    a {
+                        color: #49beaa;
+                    }
+                }
+
+                button {
+                    background-color: #49beaa;
+                }
+
+                span {
+                    font-size: 11px;
+                }
+            }
+        }
+
+        .bgVideo {
+            height: 100vh;
+        }
+    }
+
+    // Login_Page
+}

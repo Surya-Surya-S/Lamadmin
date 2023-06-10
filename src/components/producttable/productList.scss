@@ -1,0 +1,82 @@
+.productContainer {
+    overflow: hidden;
+    .top {
+        background-color: rgb(9 166 243 / 17%);
+        box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+        -webkit-box-shadow: 1px 1px 8px 2px rgba(0, 0, 0, 0.28);
+    padding: 12px 20px;
+    margin: 20px;
+        border-radius: 6px;
+        
+        h1{
+            font-size: 24px;
+            font-weight: 700;
+            color: #0c63e7;
+        }
+    }
+
+    .bottom{
+    margin: 20px;
+        border-radius: 6px;
+        
+        .addButton{
+                font-size: 14px;
+                font-weight: 600;
+                color: #e62314;
+            background-color: rgb(241 158 24 / 44%);
+            border: none;
+                border-radius: 4px;
+                padding: 6px 10px;
+                margin: 0.5rem 0 1rem 63.8rem;
+        }
+
+        .css-t89xny-MuiDataGrid-columnHeaderTitle{
+            color: #f1faee;
+        }
+
+        .MuiTablePagination-actions{
+            
+            button{
+                background: none !important;
+            }
+        }
+
+        .css-gl260s-MuiDataGrid-columnHeadersInner{
+            background-color: #00d3e0;
+            
+            .MuiDataGrid-columnHeaderTitleContainer{
+                justify-content: center;
+            }
+        }
+        .css-12u49z-MuiDataGrid-root .MuiDataGrid-cell--textLeft{
+            justify-content: space-evenly;
+        }
+        .css-12u49z-MuiDataGrid-root .MuiDataGrid-columnHeader:focus, .css-12u49z-MuiDataGrid-root .MuiDataGrid-cell:focus{
+            outline: none;
+        }
+        .css-s1v7zr-MuiDataGrid-virtualScrollerRenderZone{
+            background-color: #00d5e023;
+        }
+        .css-axafay-MuiDataGrid-virtualScroller{
+            overflow: hidden;
+        }
+        
+        button{
+            font-size: 14px;
+            font-weight: 500;
+            background-color: #00d3e0;
+            color: #f5f4f4;
+            border: none;
+            border-radius: 4px;
+            padding: 4px 8px;
+        }
+
+        .dataGridContainer {
+            width: 100%;
+            
+            // @media screen and (max-width: 600px) {
+            //   width: 100%; // Adjust the width as per your requirements
+            // }
+          }
+    }
+}

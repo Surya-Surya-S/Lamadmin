@@ -1,0 +1,111 @@
+.featured{
+    flex: 2;
+    padding: 14px;
+    border-radius: 6px;
+    -webkit-box-shadow: 1px 1px 8px 2px rgba(0,0,0,0.28); 
+    box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+        
+        .title{
+            font-size: 20px;
+            font-weight: 600;
+            color: #212b36;
+        }
+        .icon{
+            font-size: 20px;
+            font-weight: 500;
+            color: #14213d;
+        }
+    }
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        padding: 50px;
+
+        .featuredChart{
+            width: 30%;
+            height: 30%;
+
+            .circularBar{
+                margin-bottom: 20px;
+                .CircularProgressbar-text{
+                    font-size: 24px;
+                    font-weight: 600;
+                    fill: #76d5a5;
+                }
+                .CircularProgressbar-path{
+                    stroke: #76d5a5;
+                }
+            }
+        }
+        .title{
+            font-size: 18px !important;
+            font-weight: 500;
+            color: #8d99ae;
+        }
+        .amount{
+            font-size: 22px;
+            font-weight: 600;
+            color: #2b2d42a8;
+        }
+        .content{
+            font-size: 15px !important;
+            line-height: 25px !important;
+            font-weight: 500;
+            color: #8d99ae;
+            margin-bottom: 20px !important;
+        }
+        .summary{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .item{
+                text-align: center;
+                
+                .itemTitle{
+                    font-size: 16px !important;
+                    font-weight: 500 !important;
+                }
+                .icon{
+                    font-size: 26px;
+                }
+
+                .itemResult{
+                    display: flex;
+                    align-items: center;
+                    margin-top: 10px;
+
+                    .itemAmount{
+                        font-size: 16px !important;
+                        font-weight: 600;
+                        color: #2b2d42;
+                        
+                        &.positive{
+                            color: #007500;
+                        }
+                        &.negative{
+                            color: #FF0000;
+                        }
+                    }
+                    &.positive{
+                        color: #007500;
+                    }
+                    &.negative{
+                        color: #FF0000;
+                    }
+                }
+            }    
+            
+        }
+    }
+}

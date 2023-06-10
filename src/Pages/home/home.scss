@@ -1,0 +1,24 @@
+.home{
+    display: flex;
+
+
+    .homeContainer{
+        flex: 6;
+        overflow: hidden;
+
+        .widgets, .charts{
+            display: flex;
+            padding: 20px;
+            gap: 20px;
+        }
+        .charts{
+            padding: 5px 20px;
+        }
+        .featured{
+            .bottom{
+                gap: 0;
+                padding: 10px 4px;
+            }
+        }
+    }
+}

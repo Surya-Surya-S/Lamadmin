@@ -1,0 +1,29 @@
+.viewForm {
+    width: 26%;
+    margin: 0 auto 20px;
+
+    h2 {
+        font-size: 24px;
+        font-weight: 700;
+        color: #3a5a40;
+        margin-bottom: 14px;
+    }
+
+    p {
+        font-size: 20px;
+        font-weight: 600;
+        color: #588157;
+        margin-left: 36px;
+        padding-bottom: 10px;
+    }
+
+    .viewButton {
+        width: 26%;
+        font-size: 16px !important;
+        font-weight: 600 !important;
+        background-color: #a3b18a !important;
+        letter-spacing: 0.5px;
+        color: #fff !important;
+        margin: 10px 70px 20px;
+    }
+}

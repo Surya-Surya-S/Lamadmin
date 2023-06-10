@@ -1,0 +1,44 @@
+.editForm{
+    width: 26%;
+    display: block;
+    gap: 0;
+    margin: 0 auto 20px;
+
+    h2{
+        font-size: 24px;
+    font-weight: 700;
+    color: #3a5a40;
+    margin-bottom: 14px;
+    }
+
+    .formInput{
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        
+        label{
+            font-size: 20px;
+            font-weight: 600;
+            color: #588157;
+        }
+        input{
+            border: none;
+            outline: none;
+            border-bottom: 1px solid #ccc;
+            margin: 16px 0;
+        }
+    }
+    .editButton{
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding-top: 10px;
+        
+        .saveButton, .cancelButton{
+            width: 30%;
+            background-color: #a3b18a !important;
+            color: #fff !important;
+            // margin: 0 0 2rem 7rem;
+        }
+    }
+}

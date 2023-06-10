@@ -1,0 +1,48 @@
+.orderTable {
+    .cellWrapper{
+        display: flex;
+        align-items: center;
+        color: #38a3a5 !important;
+        overflow: hidden;
+
+        .image{
+            width: 70px;
+            height: 70px;
+            border-radius: 100%;
+            margin-right: 10px;
+        }
+    }
+    .payment{
+        font-size: 14px;
+        font-weight: 600;
+        padding: 10px 16px;
+        border-radius: 5px;
+
+        &.Completed{
+            color: #edf6f9 !important;
+            background-color: rgb(42 157 144 / 65%) !important;
+        }
+        &.Processing{
+            color: #f4a261 !important;
+            background-color: rgb(244 163 97 / 60%) !important;
+        }
+        &.Cancelled{
+            color: #e05454 !important;
+            background-color: rgb(230 57 71 / 37%) !important;
+        }
+    }
+    .tableRow{
+        .tableCell{
+            font-size: 16px;
+            font-weight: 500;
+            background-color: #84a98c !important;
+            color: #eeedea;
+        }
+    }
+    .tableBody{
+        .tableCell{
+            background-color: #e0e1dd;
+            color: #38a3a5 !important;
+        }
+    }
+}

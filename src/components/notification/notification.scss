@@ -1,0 +1,42 @@
+.message{
+    width: 100%;
+
+    .right{
+        display: flex;
+        align-items: center;
+        justify-content: right;
+        color: #4361ee;
+        margin-bottom: 14px;
+
+        p{
+            font-size: 16px;
+            font-weight: 600;
+            text-align: right;
+        }
+    }
+    .content{
+        ul{
+            text-decoration: dotted;
+            padding-right: 10px;
+            margin-bottom: 16px;
+            li{
+               font-size: 20px;
+               font-weight: 400;
+               color: #403d39;
+               margin-bottom: 20px;
+                
+               &::marker{
+                color: #4361ee;
+                }
+            }
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                width: max-content;
+                color: #4361ee;
+                border-bottom: 1px solid #4361ee;
+                cursor: pointer;
+            }
+        }
+    }
+}

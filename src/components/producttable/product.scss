@@ -1,0 +1,52 @@
+.table {
+
+    .products {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .image {
+        margin-right: 10px;
+    }
+
+    .tableRow {
+        background-color: #415a77;
+
+        .tableCell {
+            text-align: center;
+        }
+    }
+
+    .tableColumn {
+
+        &:nth-child(odd) {
+            background-color: #e9ecef0f;
+        }
+
+        &:nth-child(even) {
+            background-color: #ced4da1a;
+        }
+
+        .tableCell {
+            text-align: center;
+            padding: 20px 60px;
+        }
+    }
+    .order, .payment{
+        font-size: 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        padding: 10px;
+
+        &.Approved, &.Succeed{
+            background-color: #A3EBB1;
+            color: #116530;
+        }
+        &.Processing, &.Pending{
+            background-color: #e56b6f;
+            color: #ef233c;
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+.list{
+    width: 100%;
+    display: flex;
+
+    .listContainer{
+        flex: 6;
+        overflow: hidden;
+        
+        .top{
+            border-radius: 6px;
+            -webkit-box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                box-shadow: 1px 2px 8px -2px rgba(0, 0, 0, 0.28);
+                padding: 10px 20px;
+                margin: 20px;
+
+                h1{
+                    font-size: 28px;
+                    font-weight: 700;
+                    color: #9c6644;
+                }
+            }
+    }
+}

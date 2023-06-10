@@ -1,0 +1,118 @@
+.addUser {
+
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        width: 48%;
+        margin: 30px auto 0;
+        gap: 15px;
+
+        div {
+            display: flex;
+            align-items: center;
+
+            label {
+                font-size: 18px;
+                font-weight: 600;
+                color: #4ecdc4;
+                margin-right: 12px;
+            }
+
+            input {
+                font-size: 16px;
+                font-weight: 500;
+                outline: none;
+                border: none;
+                border-bottom: 1px solid #454545a3;
+                margin: 30px 0;
+
+                &::placeholder {
+                    color: #dee1e7 !important;
+                }
+            }
+
+            button {
+                font-size: 18px;
+                font-weight: 600;
+                background-color: #e27532;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                padding: 8px 14px;
+            }
+        }
+    }
+}
+
+
+
+form {
+    width: 53%;
+    display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+        margin: 30px auto 0;
+        gap: 10px;
+
+    h2 {
+        display: none;
+    }
+
+    label {
+        font-size: 18px;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        color: #954427;
+        margin-right: 12px;
+    }
+
+    input {
+        font-size: 16px;
+        font-weight: 600;
+        outline: none;
+        border: none;
+        border-bottom: 1px solid #454545a3;
+        margin: 30px 0;
+        color: #b1eacd;
+    }
+
+
+}
+
+.viewButton{
+
+    h2,p{
+        width: 52%;
+        font-size: 24px;
+        font-weight: 700;
+        color: #e27532;
+        margin: 38px auto 20px;
+    }
+    p{
+        font-size: 18px;
+        font-weight: 600;
+        color: rgb(145, 158, 171);
+        color: #9a8c98;
+        padding: 4px 0 4px 70px;
+        margin: 0 auto;
+    }
+    .userInfo{
+        font-size: 20px;
+        font-weight: 700;
+        color: rgba(0, 0, 255, 0.934);
+        
+        #userInfo{
+            color: #e27532;
+        }
+    }
+    button{
+        top: 1.3rem;
+    left: 25rem;
+    bottom: 0;
+    background-color: #9c6644;
+    }
+   
+}
