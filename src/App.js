@@ -22,7 +22,7 @@ function App() {
 
   return (
     <div className={darkMode ? "app dark" : "app"}>
-      <BrowserRouter basename="/lamaReact/">
+      <BrowserRouter>
         <Routes>
           <Route path="/">
             <Route index element={<Home />} />
