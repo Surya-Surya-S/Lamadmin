@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# LAMADMIN
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a React project that demonstrates [CRUD Operation, React-Router-Dom, Form Validation(Formik and Yup) and Sass style Using].
 
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+## Prerequisites
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Install Node JS
+Refer to https://nodejs.org/en/ to install nodejs
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### npx create-react-app
+```bash
+npx create-react-app file name
+```
 
-### `npm test`
+### Design
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+@Lama Dev [https://www.youtube.com/watch?v=yKV1IGahXqA&t=208s].
 
-### `npm run build`
+### Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Source Sans Pro font family added in project
+2. Creating a Material-UI Component in React
+3. Adding Sass style
+4. Communicating between parent and child component
+5. install recharts 
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Cloning and Running the Application in local
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Clone the project into local
 
-### `npm run eject`
+Install all the npm packages. Go into the project folder and type the following command to install all npm packages
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+npm install
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+In order to run the application Type the following command
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```bash
+npm start
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+The Application Runs on **localhost:3000**
 
-## Learn More
+### Dashboard Pages
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Side bar(left side)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nav bar(top)
 
-### Code Splitting
+Pages(bottom)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+**All pages sidebar and navbar is there.**
 
-### Analyzing the Bundle Size
+## Dashboard design
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+#### Components
 
-### Making a Progressive Web App
+1. **Users** Component : This Component displays a list of users. This Component gets the data from a jsx file in components folder
+2. **Product** Component : This Component displays a list of product. This Component gets the data from a jsx file in components folder
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### Sass Minify
+To properly compile and minify the Sass file, you can use the following command in your terminal:
+```bash
+sass --style compressed --watch src/folder name/file name.scss:src/folder name/file name.css
+```
 
-### Advanced Configuration
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+## Resources
 
-### Deployment
+**create-react-app** : The following link has all the commands that can be used with create-react-app
+https://github.com/facebook/create-react-app
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**ReactJS** : Refer to https://reactjs.org/ to understand the concepts of ReactJS
