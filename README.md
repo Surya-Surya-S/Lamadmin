@@ -1,6 +1,6 @@
 # LAMADMIN
 
-This is a React project that demonstrates [CRUD Operation, React-Router-Dom, Form Validation(Formik and Yup) and Sass style Using].
+This is a React project in that project[CRUD Operation, React-Router-Dom, Form Validation(Formik and Yup) and Sass styles] using.
 
 ## Available Scripts
 
